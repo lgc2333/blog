@@ -6,10 +6,10 @@ settings:
 
 dependencies:
   valaxy:
-    specifier: 0.18.5
+    specifier: ^0.18.5
     version: 0.18.5(@types/markdown-it@14.0.0)(@unhead/shared@1.9.4)(postcss@8.4.38)(typescript@5.4.4)(unhead@1.9.4)
   valaxy-theme-yun:
-    specifier: 0.18.5
+    specifier: ^0.18.5
     version: 0.18.5
 
 devDependencies:
