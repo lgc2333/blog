@@ -41,6 +41,12 @@ export default defineSiteConfig({
       icon: 'i-ri-earth-line',
       color: 'var(--va-c-text)',
     },
+    {
+      name: 'GitHub',
+      link: 'https://github.com/lgc2333/blog',
+      icon: 'i-ri-github-line',
+      color: 'var(--va-c-text)',
+    },
   ],
   sponsor: {
     enable: true,
