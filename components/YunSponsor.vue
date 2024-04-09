@@ -13,7 +13,7 @@ const sponsorBtnTitle = computed(() => {
 
 <template>
   <div class="yun-sponsor-container flex-center flex-col">
-    <a href="/donate">
+    <a href="/donate" target="_blank">
       <button
         class="sponsor-button yun-icon-btn shadow hover:shadow-md"
         :title="sponsorBtnTitle"
@@ -22,5 +22,10 @@ const sponsorBtnTitle = computed(() => {
         <div i-ri-heart-line />
       </button>
     </a>
+    <div>
+      <span v-if="siteConfig.sponsor.description" class="text-$va-c-text-light text-sm">
+        {{ siteConfig.sponsor.description }}
+      </span>
+    </div>
   </div>
 </template>
