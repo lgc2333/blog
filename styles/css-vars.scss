@@ -1,1 +1,17 @@
-// you can custom css vars here
+@import url('./font-harmonyos-sans-sc.scss');
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+  --va-font-serif: 'HarmonyOS Sans SC', serif;
+  --va-font-sans: 'HarmonyOS Sans SC', sans-serif;
+  --va-font-mono: 'Victor Mono', monospace;
+
+  --smc-font-serif: var(--va-font-serif);
+  --smc-font-sans: var(--va-font-sans);
+  --smc-font-mono: var(--va-font-mono);
+
+  --cp-font-family: var(--va-font-serif);
+  --cp-font-family-header: var(--va-font-serif);
+  --cp-font-family-header-alt: var(--va-font-serif);
+  --cp-font-family-monospace: var(--va-font-mono);
+}

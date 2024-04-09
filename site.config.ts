@@ -22,23 +22,24 @@ export default defineSiteConfig({
   timezone: 'Asia/Shanghai',
   lastUpdated: true,
   favicon: '/assets/favicon.png',
-  feed: { name: 'feed.xml', favicon: '/assets/favicon.png' },
+  feed: { name: 'rss', favicon: '/assets/favicon.png' },
   search: { enable: true, type: 'fuse' },
+  fuse: { options: { ignoreLocation: true } },
   license: { enabled: true, type: 'by-nc' },
   mediumZoom: { enable: true },
 
   social: [
     {
       name: 'RSS',
-      link: '/feed.xml',
+      link: '/rss.xml',
       icon: 'i-ri-rss-line',
-      color: 'orange',
+      color: 'var(--va-c-text)',
     },
     {
-      name: '主页',
+      name: '主站',
       link: 'https://lgc2333.top/',
       icon: 'i-ri-earth-line',
-      color: 'var(--va-c-primary)',
+      color: 'var(--va-c-text)',
     },
   ],
   sponsor: {
