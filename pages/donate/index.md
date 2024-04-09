@@ -1,6 +1,7 @@
 ---
 title: 赞助我
-# medium_zoom: false
+icon: i-ri-heart-2-line
+nav: false
 ---
 
 <!-- markdownlint-disable MD026 MD033 -->
