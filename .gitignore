@@ -26,3 +26,6 @@ public/rss.json
 
 # valaxy fuse
 public/valaxy-fuse-list.json
+
+.env
+.sponsorkit

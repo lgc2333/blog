@@ -15,7 +15,11 @@
     "noUnusedLocals": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+
+    "checkJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true
   },
   "exclude": ["dist", "node_modules"]
 }

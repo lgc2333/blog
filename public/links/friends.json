@@ -1,10 +1,26 @@
 [
   {
-    "avatar": "string",
-    "name": "string",
-    "url": "string",
-    "color": "string",
-    "blog": "string",
-    "desc": "string"
+    "avatar": "https://pic.imgdb.cn/item/630b536f16f2c2beb174795e.png",
+    "name": "Rouphy",
+    "url": "https://rouphy.github.io/",
+    "color": "var(--va-c-primary-dark)",
+    "blog": "Roublog",
+    "desc": "nano博客，小子"
+  },
+  {
+    "avatar": "https://blog.lix.moe/wp-content/uploads/2023/12/lix_avatar.jpeg",
+    "name": "LixWorth",
+    "url": "https://blog.lix.moe/",
+    "color": "var(--va-c-primary-dark)",
+    "blog": "利克斯的养鸽场",
+    "desc": "写代码是热爱，写到世界爱上我！"
+  },
+  {
+    "avatar": "https://static.xiexilin.com/Me.png",
+    "name": "XieXiLin",
+    "url": "https://www.xiexilin.com/",
+    "color": "var(--va-c-primary-dark)",
+    "blog": "XieXiLin",
+    "desc": ""
   }
 ]

@@ -1,10 +1,18 @@
 [
   {
-    "avatar": "string",
-    "name": "string",
-    "url": "string",
-    "color": "string",
-    "blog": "string",
-    "desc": "string"
+    "avatar": "#",
+    "name": "",
+    "url": "https://fuck-cors.lgc2333.top/",
+    "color": "var(--va-c-primary-dark)",
+    "blog": "Fuck CORS",
+    "desc": "CORS，我测你码"
+  },
+  {
+    "avatar": "#",
+    "name": "",
+    "url": "https://www.0d00.cn/",
+    "color": "var(--va-c-primary-dark)",
+    "blog": "0D00.CN",
+    "desc": "私のオナニーを見てください！"
   }
 ]

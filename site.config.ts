@@ -26,7 +26,7 @@ export default defineSiteConfig({
   search: { enable: true, type: 'fuse' },
   fuse: { options: { ignoreLocation: true } },
   license: { enabled: true, type: 'by-nc' },
-  mediumZoom: { enable: true },
+  mediumZoom: { enable: true, selector: '.markdown-body *:not(a img, img[data-no-zoom])' },
 
   social: [
     {
