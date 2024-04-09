@@ -1,0 +1,16 @@
+root: true
+
+env:
+  es2020: true
+
+extends:
+  - '@cordisjs/eslint-config'
+
+parser: '@typescript-eslint/parser'
+
+rules:
+  operator-linebreak:
+    - error
+    - after
+    - overrides:
+        '=': after
