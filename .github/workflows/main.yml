@@ -1,0 +1,12 @@
+name: Auto Trigger Deploy
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl ${{ secrets.DEPLOY_URL }}
