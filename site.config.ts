@@ -42,9 +42,5 @@ export default defineSiteConfig({
       color: 'var(--va-c-text)',
     },
   ],
-  sponsor: {
-    enable: true,
-    title: '我很可爱，请给我钱！',
-    methods: [],
-  },
+  sponsor: { enable: true },
 })
