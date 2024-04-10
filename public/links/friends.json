@@ -22,5 +22,13 @@
     "color": "var(--va-c-primary-dark)",
     "blog": "XieXiLin",
     "desc": ""
+  },
+  {
+    "avatar": "https://github.com/eya46.png",
+    "name": "eya46",
+    "url": "https://eya46.com/",
+    "color": "var(--va-c-primary-dark)",
+    "blog": "eya46",
+    "desc": "eya46是eya46"
   }
 ]
