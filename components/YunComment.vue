@@ -11,7 +11,7 @@ import YunComment from 'valaxy-theme-yun/components/YunComment.vue'
       repo-id="R_kgDOLr1GDQ"
       category="Announcements"
       category-id="DIC_kwDOLr1GDc4Cen96"
-      mapping="og:title"
+      mapping="pathname"
       strict="1"
       reactions-enabled="1"
       emit-metadata="0"
