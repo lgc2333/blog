@@ -2,7 +2,6 @@
 layout: post
 title: 以 OneBot V11 协议为例了解 Web 通信
 categories: ['教程']
-draft: true
 date: 2024-04-11
 updated: 2024-04-11
 ---
