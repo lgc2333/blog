@@ -16,7 +16,7 @@ useScriptTag('https://giscus.app/client.js', () => {}, {
     'data-reactions-enabled': '1',
     'data-emit-metadata': '0',
     'data-input-position': 'top',
-    'data-theme': 'preferred_color_scheme',
+    'data-theme': 'https://blog.lgc2333.top/giscus.css',
     'data-lang': 'zh-CN',
     'data-loading': 'lazy',
   },

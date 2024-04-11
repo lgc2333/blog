@@ -10,7 +10,7 @@ export default defineSiteConfig({
   author: {
     name: 'student_2333',
     email: 'lgc2333@126.com',
-    // link: 'https://lgc2333.top/',
+    link: 'https://lgc2333.top/',
     avatar: '/assets/favicon.png',
     status: {
       emoji: '❤️',
