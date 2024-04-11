@@ -17,6 +17,9 @@ dependencies:
   valaxy-theme-yun:
     specifier: ^0.18.5
     version: 0.18.5
+  vue-gtag-next:
+    specifier: ^1.14.0
+    version: 1.14.0(vue@3.4.21)
 
 devDependencies:
   '@cordisjs/eslint-config':
@@ -6631,6 +6634,14 @@ packages:
     peerDependenciesMeta:
       '@vue/composition-api':
         optional: true
+    dependencies:
+      vue: 3.4.21(typescript@5.4.5)
+    dev: false
+
+  /vue-gtag-next@1.14.0(vue@3.4.21):
+    resolution: {integrity: sha512-iJl+cOG2GU5NuxqzSSIpt03WVOvZqyKB9TOy7d55KiuvRklcnb2nlqxW5B/a3/sbIt7fla+XEkRyMCcoz0zAHw==}
+    peerDependencies:
+      vue: ^3.0.0-rc.11
     dependencies:
       vue: 3.4.21(typescript@5.4.5)
     dev: false

@@ -26,7 +26,12 @@ export default defineSiteConfig({
   favicon: '/assets/favicon.png',
   feed: { name: 'rss', favicon: '/assets/favicon.png' },
   search: { enable: true, type: 'fuse' },
-  fuse: { options: { ignoreLocation: true } },
+  fuse: {
+    options: {
+      ignoreLocation: true,
+      keys: ['title', 'excerpt', 'author', 'tags', 'categories', 'link', 'content'],
+    },
+  },
   license: { enabled: true, type: 'by-nc' },
   mediumZoom: { enable: true, selector: '.markdown-body *:not(a img, img[data-no-zoom])' },
   frontmatter: { time_warning: TIME_DAY * 90 },

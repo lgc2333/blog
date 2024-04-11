@@ -16,7 +16,8 @@
     "@giscus/vue": "^3.0.0",
     "valaxy": "^0.18.5",
     "valaxy-addon-components": "^0.0.2",
-    "valaxy-theme-yun": "^0.18.5"
+    "valaxy-theme-yun": "^0.18.5",
+    "vue-gtag-next": "^1.14.0"
   },
   "devDependencies": {
     "@cordisjs/eslint-config": "^1.0.4",
