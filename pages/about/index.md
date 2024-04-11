@@ -2,9 +2,11 @@
 title: 关于我
 icon: i-ri-user-line
 nav: false
+date: 2024-04-10
+updated: 2024-04-10
 ---
 
-> _引用自 <https://github.com/Cute-Dress/Dress/tree/master/L/lgc2333>_
+> 引用自 <https://github.com/Cute-Dress/Dress/tree/master/L/lgc2333>
 
 男，17 岁（生日 2007/1/17），现居湖北随州广水，高三休学中的互联网废物。  
 可以叫我 `饼干`，叫 `student` 或者 `lgc` 也没有问题。

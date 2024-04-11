@@ -1,5 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
+const TIME_DAY = 1000 * 60 * 60 * 24
+
 export default defineSiteConfig({
   url: 'https://blog.lgc2333.top/',
   title: '饼干的 Blog',
@@ -27,6 +29,7 @@ export default defineSiteConfig({
   fuse: { options: { ignoreLocation: true } },
   license: { enabled: true, type: 'by-nc' },
   mediumZoom: { enable: true, selector: '.markdown-body *:not(a img, img[data-no-zoom])' },
+  frontmatter: { time_warning: TIME_DAY * 90 },
 
   social: [
     {
@@ -51,6 +54,6 @@ export default defineSiteConfig({
   sponsor: {
     enable: true,
     title: '赞助我',
-    description: '我很可爱，请给我钱！',
+    description: '如果你觉得这篇文章有意义，不妨赞助我一下',
   },
 })
