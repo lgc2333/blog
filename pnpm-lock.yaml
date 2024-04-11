@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@giscus/vue':
+    specifier: ^3.0.0
+    version: 3.0.0(vue@3.4.21)
   valaxy:
     specifier: ^0.18.5
     version: 0.18.5(@types/markdown-it@14.0.0)(@unhead/shared@1.9.4)(postcss@8.4.38)(typescript@5.4.5)(unhead@1.9.4)
@@ -709,6 +712,15 @@ packages:
     resolution: {integrity: sha512-BiF9iWE/8jTmqlxcIhSZlJgUlBJ62Wk9I6jTwfkd0zMn0QS2IxTxypOnV4CSo21bsnmsvJxh9ryepAK+D4OJqA==}
     dev: false
 
+  /@giscus/vue@3.0.0(vue@3.4.21):
+    resolution: {integrity: sha512-ZoSUmlc3ee2a+kdumCaXFDZaB4h9b1BYWzsmmRP7zoGEQKYopdAnzGvJK7RdvrYGAzNqZtGUxI0NnBl8/UA6bQ==}
+    peerDependencies:
+      vue: '>=3.2.0'
+    dependencies:
+      giscus: 1.5.0
+      vue: 3.4.21(typescript@5.4.5)
+    dev: false
+
   /@humanwhocodes/config-array@0.11.14:
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
     engines: {node: '>=10.10.0'}
@@ -1068,6 +1080,16 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
+  /@lit-labs/ssr-dom-shim@1.2.0:
+    resolution: {integrity: sha512-yWJKmpGE6lUURKAaIltoPIE/wrbY3TEkqQt+X0m+7fQNnAv0keydnYvbiJFP1PnMhizmIWRWOG5KLhYyc/xl+g==}
+    dev: false
+
+  /@lit/reactive-element@2.0.4:
+    resolution: {integrity: sha512-GFn91inaUa2oHLak8awSIigYz0cU0Payr1rcFsrkf5OJ5eSPxElyZfKh0f2p9FsTiZWXQdWGJeXZICEfXXYSXQ==}
+    dependencies:
+      '@lit-labs/ssr-dom-shim': 1.2.0
+    dev: false
+
   /@mdit-vue/plugin-component@2.1.0:
     resolution: {integrity: sha512-C3y7/hB90WcCpuxw+Z7uWmF3+NJpjv89PI8EVdxFJMFUfdX9JGBAkW34UA9+JdQSx7ARVeXgcb06zkD5z37cbw==}
     dependencies:
@@ -1342,6 +1364,10 @@ packages:
   /@types/semver@7.5.8:
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
     dev: true
+
+  /@types/trusted-types@2.0.7:
+    resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
+    dev: false
 
   /@types/unist@2.0.10:
     resolution: {integrity: sha512-IfYcSBWE3hLpBg8+X2SEa8LVkJdJEkT2Ese2aaLs3ptGdVtABxndrMaxuFlQ1qdFf9Q5rDvDpxI3WwgvKFAsQA==}
@@ -3796,6 +3822,12 @@ packages:
       get-intrinsic: 1.2.4
     dev: true
 
+  /giscus@1.5.0:
+    resolution: {integrity: sha512-t3LL0qbSO3JXq3uyQeKpF5CegstGfKX/0gI6eDe1cmnI7D56R7j52yLdzw4pdKrg3VnufwCgCM3FDz7G1Qr6lg==}
+    dependencies:
+      lit: 3.1.2
+    dev: false
+
   /glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
@@ -4528,6 +4560,28 @@ packages:
     resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==}
     dependencies:
       uc.micro: 2.1.0
+    dev: false
+
+  /lit-element@4.0.4:
+    resolution: {integrity: sha512-98CvgulX6eCPs6TyAIQoJZBCQPo80rgXR+dVBs61cstJXqtI+USQZAbA4gFHh6L/mxBx9MrgPLHLsUgDUHAcCQ==}
+    dependencies:
+      '@lit-labs/ssr-dom-shim': 1.2.0
+      '@lit/reactive-element': 2.0.4
+      lit-html: 3.1.2
+    dev: false
+
+  /lit-html@3.1.2:
+    resolution: {integrity: sha512-3OBZSUrPnAHoKJ9AMjRL/m01YJxQMf+TMHanNtTHG68ubjnZxK0RFl102DPzsw4mWnHibfZIBJm3LWCZ/LmMvg==}
+    dependencies:
+      '@types/trusted-types': 2.0.7
+    dev: false
+
+  /lit@3.1.2:
+    resolution: {integrity: sha512-VZx5iAyMtX7CV4K8iTLdCkMaYZ7ipjJZ0JcSdJ0zIdGxxyurjIn7yuuSxNBD7QmjvcNJwr0JS4cAdAtsy7gZ6w==}
+    dependencies:
+      '@lit/reactive-element': 2.0.4
+      lit-element: 4.0.4
+      lit-html: 3.1.2
     dev: false
 
   /local-pkg@0.4.3:

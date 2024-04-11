@@ -1,30 +1,26 @@
 <script setup lang="ts">
-import { useScriptTag } from '@vueuse/core'
-
+import { usePreferredDark } from '@vueuse/core'
+import Giscus from '@giscus/vue'
 import YunComment from 'valaxy-theme-yun/components/YunComment.vue'
 
-useScriptTag('https://giscus.app/client.js', () => {}, {
-  async: true,
-  crossOrigin: 'anonymous',
-  attrs: {
-    'data-repo': 'lgc2333/blog',
-    'data-repo-id': 'R_kgDOLr1GDQ',
-    'data-category': 'Announcements',
-    'data-category-id': 'DIC_kwDOLr1GDc4Cen96',
-    'data-mapping': 'og:title',
-    'data-strict': '1',
-    'data-reactions-enabled': '1',
-    'data-emit-metadata': '0',
-    'data-input-position': 'top',
-    'data-theme': 'https://blog.lgc2333.top/giscus.css',
-    'data-lang': 'zh-CN',
-    'data-loading': 'lazy',
-  },
-})
+const isDark = usePreferredDark()
 </script>
 
 <template>
   <YunComment>
-    <div class="giscus"></div>
+    <Giscus
+      repo="lgc2333/blog"
+      repo-id="R_kgDOLr1GDQ"
+      category="Announcements"
+      category-id="DIC_kwDOLr1GDc4Cen96"
+      mapping="og:title"
+      strict="1"
+      reactions-enabled="1"
+      emit-metadata="0"
+      input-position="top"
+      :theme="`https://blog.lgc2333.top/css/giscus/${isDark ? 'dark' : 'light'}.css`"
+      lang="zh-CN"
+      loading="lazy"
+    ></Giscus>
   </YunComment>
 </template>

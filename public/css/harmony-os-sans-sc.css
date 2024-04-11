@@ -1,7 +1,4 @@
-@import url('https://giscus.app/themes/preferred_color_scheme.css');
-@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
-/* #region https://github.com/IKKI2000/harmonyos-fonts/blob/main/css/harmonyos_sans_sc.css */
+/* https://github.com/IKKI2000/harmonyos-fonts/blob/main/css/harmonyos_sans_sc.css */
 
 /* Thin */
 @font-face {
@@ -55,18 +52,4 @@
   font-weight: 900;
   font-style: normal;
   font-display: swap;
-}
-
-/* #endregion */
-
-:host,
-html {
-  font-family: 'HarmonyOS Sans SC', sans-serif;
-}
-
-code,
-kbd,
-pre,
-samp {
-  font-family: 'Victor Mono', monospace;
 }
