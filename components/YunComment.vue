@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import { usePreferredDark } from '@vueuse/core'
 import Giscus from '@giscus/vue'
+import { isDark } from 'valaxy'
 import YunComment from 'valaxy-theme-yun/components/YunComment.vue'
-
-const isDark = usePreferredDark()
 </script>
 
 <template>
