@@ -30,6 +30,7 @@ export default defineSiteConfig({
   license: { enabled: true, type: 'by-nc' },
   mediumZoom: { enable: true, selector: '.markdown-body *:not(a img, img[data-no-zoom])' },
   frontmatter: { time_warning: TIME_DAY * 90 },
+  comment: { enable: true },
 
   social: [
     {
