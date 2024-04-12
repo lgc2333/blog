@@ -3,6 +3,16 @@ import { addonComponents } from 'valaxy-addon-components'
 
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 
+import { definePreset, Preset } from 'unocss'
+
+const unoPreset = definePreset((options?: any) => {
+  return {
+    name: 'custom-preset',
+    rules: [],
+    variants: [],
+  } as Preset
+})
+
 export default defineValaxyConfig<UserThemeConfig>({
   theme: 'yun',
   themeConfig: {
@@ -43,5 +53,6 @@ export default defineValaxyConfig<UserThemeConfig>({
   addons: [addonComponents()],
   unocss: {
     safelist: [],
+    presets: [unoPreset],
   },
 })
