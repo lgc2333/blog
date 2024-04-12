@@ -14,7 +14,7 @@ export default defineSiteConfig({
     avatar: '/assets/favicon.png',
     status: {
       emoji: '❤️',
-      message: '单恋中',
+      message: '恋爱中',
     },
   },
 
