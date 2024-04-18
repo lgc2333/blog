@@ -25,6 +25,8 @@ jobs:
           cache: pnpm
       - run: |-
           pnpm i
+          export SPONSORKIT_AFDIAN_TOKEN=${{ secrets.SPONSORKIT_AFDIAN_TOKEN }}
+          export SPONSORKIT_AFDIAN_USER_ID=${{ secrets.SPONSORKIT_AFDIAN_USER_ID }}
           pnpm sponsor
           if [[ -n "$(git status -s)" ]]; then
             git add .
