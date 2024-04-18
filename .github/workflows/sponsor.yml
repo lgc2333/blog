@@ -1,5 +1,7 @@
 name: Auto Update Sponsor List
 
+permissions: write-all
+
 on:
   push:
     paths:
@@ -23,7 +25,8 @@ jobs:
         with:
           node-version: 20
           cache: pnpm
-      - run: |-
+      - name: Run Job
+        run: |-
           pnpm i
           export SPONSORKIT_AFDIAN_TOKEN=${{ secrets.SPONSORKIT_AFDIAN_TOKEN }}
           export SPONSORKIT_AFDIAN_USER_ID=${{ secrets.SPONSORKIT_AFDIAN_USER_ID }}
