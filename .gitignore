@@ -29,4 +29,4 @@ public/valaxy-fuse-list.json
 
 .env
 .sponsorkit
-public/assets/sponsors-*.svg
+# public/assets/sponsors-*.svg

@@ -46,4 +46,6 @@ nav: false
 
 <h3 class="w-fit m-auto">直接赞助（自建站以来）</h3>
 
+<div class="text-center">如果需要订正信息，请直接向 <a href="https://github.com/lgc2333/blog/blob/master/scripts/sponsor-direct-raw.json" target="_blank">此文件</a> 提交 PR</div>
+
 <img src="/assets/sponsors-direct.svg" alt="直接赞助列表" class="shadow-none!" data-no-zoom>

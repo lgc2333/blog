@@ -4,13 +4,15 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npm run sponsor && npm run build:ssg",
+    "build": "npm run build:ssg",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy",
     "rss": "valaxy rss",
     "serve": "vite preview",
-    "sponsor": "node scripts/sponsor-direct.cjs && sponsorkit"
+    "sponsor": "npm run sponsor:direct && npm run sponsor:afdian",
+    "sponsor:direct": "node scripts/sponsor-direct.cjs",
+    "sponsor:afdian": "sponsorkit"
   },
   "dependencies": {
     "@giscus/vue": "^3.0.0",
@@ -23,6 +25,7 @@
     "@cordisjs/eslint-config": "^1.0.4",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
+    "semaphore-promise": "^1.4.2",
     "sponsorkit": "^0.9.3",
     "typescript": "^5.4.5"
   }
