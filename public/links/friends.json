@@ -30,5 +30,13 @@
     "color": "var(--va-c-primary-dark)",
     "blog": "eya46",
     "desc": "eya46是eya46"
+  },
+  {
+    "avatar": "https://github.com/snowykami.png?size=80",
+    "name": "SnowyKami",
+    "url": "https://sfkm.me/",
+    "color": "var(--va-c-primary-dark)",
+    "blog": "SnowyKamiBlog",
+    "desc": "SnowyKami of Liteyuki！"
   }
 ]
