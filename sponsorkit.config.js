@@ -4,7 +4,7 @@ export default defineConfig({
   providers: ['afdian'],
   formats: ['svg'],
   outputDir: '.sponsorkit',
-  name: '../public/assets/sponsors-afdian',
+  name: '../public/sponsors/afdian',
   tiers: [
     {
       title: 'Sponsors',

@@ -106,14 +106,14 @@ async function defaultComposer(composer, sponsors, config) {
   console.log('Start Composing Direct Sponsors SVG...')
 
   /** @type {DirectSponsorRawData[]} */
-  const sponsorsRaw = JSON.parse(await readFile('scripts/sponsor-direct-raw.json', 'utf-8'))
+  const sponsorsRaw = JSON.parse(await readFile('public/sponsors/direct-raw.json', 'utf-8'))
   const sponsorsRawSorted = sponsorsRaw.sort((a, b) => b.moneyCNY - a.moneyCNY)
   const sponsors = await transformRaw(sponsorsRawSorted)
   const config = await loadConfig()
   const composer = new SvgComposer(config)
   await defaultComposer(composer, sponsors, config)
   const svg = composer.generateSvg().replaceAll('<image ', '<image clip-path="inset(0 round 50%)" ')
-  await writeFile('public/assets/sponsors-direct.svg', svg, { encoding: 'utf-8' })
+  await writeFile('public/sponsors/direct.svg', svg, { encoding: 'utf-8' })
 
   console.log('Compose Direct Sponsors SVG Done')
 })()

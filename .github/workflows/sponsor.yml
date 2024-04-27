@@ -5,7 +5,7 @@ permissions: write-all
 on:
   push:
     paths:
-      - 'scripts/sponsor-*'
+      - 'public/sponsors/direct-raw.json'
       - '.github/workflows/sponsor.yml'
   schedule:
     - cron: '0 0 * * *'
