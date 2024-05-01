@@ -16,13 +16,14 @@
   },
   "dependencies": {
     "@giscus/vue": "^3.0.0",
-    "valaxy": "^0.18.5",
+    "valaxy": "^0.18.6",
     "valaxy-addon-components": "^0.0.2",
-    "valaxy-theme-yun": "^0.18.5",
-    "vue-gtag-next": "^1.14.0"
+    "valaxy-theme-yun": "^0.18.6",
+    "vue-gtag-next": "^1.14.0",
+    "vue-svg-inline-plugin": "^2.2.3"
   },
   "devDependencies": {
-    "@cordisjs/eslint-config": "^1.0.4",
+    "@cordisjs/eslint-config": "^1.1.1",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
     "semaphore-promise": "^1.4.2",
