@@ -24,8 +24,8 @@ importers:
         specifier: ^1.14.0
         version: 1.14.0(vue@3.4.26(typescript@5.4.5))
       vue-svg-inline-plugin:
-        specifier: ^2.2.3
-        version: 2.2.3
+        specifier: npm:@lgcnpm/vue-svg-inline-plugin@^2.2.5
+        version: '@lgcnpm/vue-svg-inline-plugin@2.2.5'
     devDependencies:
       '@cordisjs/eslint-config':
         specifier: ^1.1.1
@@ -614,6 +614,9 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@lgcnpm/vue-svg-inline-plugin@2.2.5':
+    resolution: {integrity: sha512-xflrc8X9GIPC6TiJ3M63695wF4OPpxa8al1XetkjnZRTPVPdjpnpkjBoKiQVYi4JF0u9SeSSOxDb5No3Z+sOng==}
 
   '@lit-labs/ssr-dom-shim@1.2.0':
     resolution: {integrity: sha512-yWJKmpGE6lUURKAaIltoPIE/wrbY3TEkqQt+X0m+7fQNnAv0keydnYvbiJFP1PnMhizmIWRWOG5KLhYyc/xl+g==}
@@ -3532,9 +3535,6 @@ packages:
     peerDependencies:
       vue: ^3.2.0
 
-  vue-svg-inline-plugin@2.2.3:
-    resolution: {integrity: sha512-+27WIHI4DLxc7aiE8c9ooU+5Kp/BUHvpRK0l3Li3N1ZGeHTwMh7rIAExn2BLYzv4Bt6y5yda1qa5gzFh7Q/asA==}
-
   vue@3.4.26:
     resolution: {integrity: sha512-bUIq/p+VB+0xrJubaemrfhk1/FiW9iX+pDV+62I/XJ6EkspAO9/DXEjbDFoe8pIfOZBqfk45i9BMc41ptP/uRg==}
     peerDependencies:
@@ -4220,6 +4220,12 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
+
+  '@lgcnpm/vue-svg-inline-plugin@2.2.5':
+    dependencies:
+      core-js: 3.37.0
+      intersection-observer: 0.12.2
+      whatwg-fetch: 3.6.20
 
   '@lit-labs/ssr-dom-shim@1.2.0': {}
 
@@ -7706,12 +7712,6 @@ snapshots:
     dependencies:
       '@vue/devtools-api': 6.6.1
       vue: 3.4.26(typescript@5.4.5)
-
-  vue-svg-inline-plugin@2.2.3:
-    dependencies:
-      core-js: 3.37.0
-      intersection-observer: 0.12.2
-      whatwg-fetch: 3.6.20
 
   vue@3.4.26(typescript@5.4.5):
     dependencies:
