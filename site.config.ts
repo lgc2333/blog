@@ -34,6 +34,8 @@ export default defineSiteConfig({
   },
   license: { enabled: true, type: 'by-nc' },
   mediumZoom: { enable: true, selector: '.markdown-body *:not(a img, img[data-no-zoom])' },
+  vanillaLazyload: { enable: true },
+  statistics: { enable: true },
   frontmatter: { time_warning: TIME_DAY * 90 },
   comment: { enable: true },
 

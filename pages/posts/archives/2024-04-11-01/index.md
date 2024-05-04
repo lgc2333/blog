@@ -1,12 +1,20 @@
 ---
 layout: post
-title: 以 OneBot V11 协议为例了解 Web 通信
-categories: ['教程']
+title: 【归档】以 OneBot V11 协议为例了解 Web 通信
+categories: ['已归档', '教程']
+tags: []
 date: 2024-04-11
 updated: 2024-04-12
+hide: index
 ---
 
 <!-- markdownlint-disable MD033 -->
+
+::: warning
+本文章已弃坑
+
+没兴趣写下去了，写的还烂
+:::
 
 [OneBot V11](https://github.com/botuniverse/onebot-11) 是一个机器人协议，一般针对即时通信平台 QQ。虽然其有很多缺陷，但应用很广泛。  
 本文将以 OneBot V11 协议为例，尽量以易懂的方式引导大家了解 Web 通信的基本知识。

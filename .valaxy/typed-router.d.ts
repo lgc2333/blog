@@ -28,7 +28,8 @@ declare module 'vue-router/auto-routes' {
     '/donate/': RouteRecordInfo<'/donate/', '/donate', Record<never, never>, Record<never, never>>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
-    '/posts/2024/04/11/01/': RouteRecordInfo<'/posts/2024/04/11/01/', '/posts/2024/04/11/01', Record<never, never>, Record<never, never>>,
+    '/posts/2024-05-04-01/': RouteRecordInfo<'/posts/2024-05-04-01/', '/posts/2024-05-04-01', Record<never, never>, Record<never, never>>,
+    '/posts/archives/2024-04-11-01/': RouteRecordInfo<'/posts/archives/2024-04-11-01/', '/posts/archives/2024-04-11-01', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }
