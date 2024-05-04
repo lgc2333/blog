@@ -25,15 +25,15 @@ nav: false
 
 <div class="w-fit m-auto flex flex-wrap items-center justify-center">
   <div class="flex flex-col items-center justify-center">
-    <img src="/donate/alipay.jpg" alt="支付宝" class="w-200px m-0! border-solid border-white border-1px">
+    <img src="/assets/donate/alipay.jpg" alt="支付宝" class="w-200px m-0! border-solid border-white border-1px">
     <span>支付宝</span>
   </div>
   <div class="flex flex-col items-center justify-center">
-    <img src="/donate/wechat.png" alt="微信" class="w-200px m-0! border-solid border-white border-1px">
+    <img src="/assets/donate/wechat.png" alt="微信" class="w-200px m-0! border-solid border-white border-1px">
     <span>微信</span>
   </div>
   <div class="flex flex-col items-center justify-center">
-    <img src="/donate/qq.png" alt="QQ" class="w-200px m-0! border-solid border-white border-1px">
+    <img src="/assets/donate/qq.png" alt="QQ" class="w-200px m-0! border-solid border-white border-1px">
     <span>QQ</span>
   </div>
 </div>
