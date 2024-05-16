@@ -7,7 +7,7 @@
   {
     "name": "ajchen",
     "avatar": "http://q.qlogo.cn/headimg_dl?dst_uin=1273029087&spec=640",
-    "moneyCNY": 40
+    "moneyCNY": 128
   },
   {
     "name": "大宝",
@@ -22,5 +22,10 @@
   {
     "name": "*贵",
     "moneyCNY": 5
+  },
+  {
+    "name": "Crepuscule",
+    "avatar": "http://q.qlogo.cn/headimg_dl?dst_uin=1041204748&spec=640",
+    "moneyCNY": 30
   }
 ]
