@@ -5,5 +5,5 @@ import { install as installGtag } from './gtag'
 
 export default defineAppSetup(async (ctx) => {
   installGtag(ctx)
-  ctx.app.use(VueSvgInlinePlugin)
+  ctx.app.use(VueSvgInlinePlugin, { cache: { persistent: false } })
 })
