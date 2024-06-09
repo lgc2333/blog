@@ -38,5 +38,13 @@
     "color": "var(--va-c-primary-dark)",
     "blog": "SnowyKamiBlog",
     "desc": "SnowyKami of Liteyuki！"
+  },
+  {
+    "avatar": "https://server.akio.top/icon",
+    "name": "MisakaAkio",
+    "url": "https://www.akio.top/",
+    "color": "var(--va-c-primary-dark)",
+    "blog": "御坂秋生の小窝",
+    "desc": "不努力就只能听到别人的好消息"
   }
 ]
