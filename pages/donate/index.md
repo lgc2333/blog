@@ -11,12 +11,10 @@ nav: false
 感谢各位支持!  
 你们的支持将是我创作新内容的动力
 
-</div>
-
 ## 爱发电
 
 <div class="w-216px m-auto">
-  <a href="https://afdian.net/a/lgc2333">
+  <a href="https://afdian.net/a/lgc2333" target="_blank">
     <img src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt="爱发电">
   </a>
 </div>
@@ -40,12 +38,14 @@ nav: false
 
 ## 感谢
 
-<h3 class="w-fit m-auto">爱发电</h3>
+<h3>爱发电</h3>
 
 <img v-svg-inline class="max-w-100% h-auto m-auto" src="/sponsors/afdian.svg" alt="" data-no-zoom />
 
-<h3 class="w-fit m-auto">直接赞助（自建站以来）</h3>
+<h3>直接赞助（自建站以来）</h3>
 
-<div class="text-center">如果需要订正信息，请直接向 <a href="https://github.com/lgc2333/blog/blob/master/public/sponsors/direct-raw.json" target="_blank">此文件</a> 提交 PR</div>
+如果需要订正信息，请直接向 <a href="https://github.com/lgc2333/blog/blob/master/public/sponsors/direct-raw.json" target="_blank">此文件</a> 提交 PR
 
 <img v-svg-inline class="max-w-100% h-auto m-auto" src="/sponsors/direct.svg" alt="" data-no-zoom />
+
+</div>
