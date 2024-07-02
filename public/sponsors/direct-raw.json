@@ -41,5 +41,10 @@
   {
     "name": "**春",
     "moneyCNY": 1
+  },
+  {
+    "name": "赵信长安书店",
+    "avatar": "http://q.qlogo.cn/headimg_dl?dst_uin=3332924395&spec=640",
+    "moneyCNY": 2
   }
 ]
