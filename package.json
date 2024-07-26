@@ -16,18 +16,18 @@
   },
   "dependencies": {
     "@giscus/vue": "^3.0.0",
-    "valaxy": "^0.18.8",
+    "valaxy": "^0.19.4",
     "valaxy-addon-components": "^0.0.2",
-    "valaxy-theme-yun": "^0.18.8",
+    "valaxy-theme-yun": "^0.19.4",
     "vue-gtag-next": "^1.14.0",
     "vue-svg-inline-plugin": "npm:@lgcnpm/vue-svg-inline-plugin@^2.2.5"
   },
   "devDependencies": {
     "@cordisjs/eslint-config": "^1.1.1",
     "eslint": "^8.57.0",
-    "prettier": "^3.3.2",
+    "prettier": "^3.3.3",
     "semaphore-promise": "^1.4.2",
     "sponsorkit": "^0.9.3",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.4"
   }
 }
