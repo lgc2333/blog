@@ -14,7 +14,7 @@ nav: false
 ## 爱发电
 
 <div class="w-216px m-auto">
-  <a href="https://afdian.net/a/lgc2333" target="_blank">
+  <a href="https://afdian.com/a/lgc2333" target="_blank">
     <img src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt="爱发电">
   </a>
 </div>
