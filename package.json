@@ -10,9 +10,7 @@
     "dev": "valaxy",
     "rss": "valaxy rss",
     "serve": "vite preview",
-    "sponsor": "npm run sponsor:direct && npm run sponsor:afdian",
-    "sponsor:direct": "node scripts/sponsor-direct.cjs",
-    "sponsor:afdian": "sponsorkit"
+    "sponsor": "sponsorkit"
   },
   "dependencies": {
     "@giscus/vue": "^3.0.0",
