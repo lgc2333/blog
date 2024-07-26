@@ -3,14 +3,27 @@ root: true
 env:
   es2020: true
 
+ignorePatterns:
+  - 'node_modules/'
+  - ‘dist/'
+
 extends:
   - '@cordisjs/eslint-config'
 
 parser: '@typescript-eslint/parser'
 
 rules:
-  operator-linebreak:
+  no-plusplus:
     - error
-    - after
-    - overrides:
-        '=': after
+    - allowForLoopAfterthoughts: true
+
+  indent: off
+  sort-imports: off
+  space-in-parens: off
+  operator-linebreak: off
+  lines-between-class-members:
+    - error
+    - enforce:
+        - blankLine: always
+          prev: '*'
+          next: method

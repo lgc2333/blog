@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import Giscus from '@giscus/vue'
-import { isDark } from 'valaxy'
+import { useAppStore } from 'valaxy'
 import YunComment from 'valaxy-theme-yun/components/YunComment.vue'
+
+const store = useAppStore()
 </script>
 
 <template>
@@ -16,7 +18,7 @@ import YunComment from 'valaxy-theme-yun/components/YunComment.vue'
       reactions-enabled="1"
       emit-metadata="0"
       input-position="top"
-      :theme="`https://blog.lgc2333.top/css/giscus/${isDark ? 'dark' : 'light'}.css`"
+      :theme="`https://blog.lgc2333.top/css/giscus/${store.isDark ? 'dark' : 'light'}.css`"
       lang="zh-CN"
       loading="lazy"
     ></Giscus>

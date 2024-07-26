@@ -1,0 +1,3 @@
+[submodule "third-party/vue-svg-inline-plugin"]
+	path = third-party/vue-svg-inline-plugin
+	url = https://github.com/lgc2333/vue-svg-inline-plugin
