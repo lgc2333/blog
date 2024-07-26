@@ -5,6 +5,7 @@ permissions: write-all
 on:
   push:
     paths:
+      - 'sponsorkit.config.js'
       - 'public/sponsors/direct-raw.json'
       - '.github/workflows/sponsor.yml'
   schedule:
