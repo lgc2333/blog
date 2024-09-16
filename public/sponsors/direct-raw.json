@@ -51,5 +51,9 @@
     "name": "42",
     "avatar": "http://q.qlogo.cn/headimg_dl?dst_uin=1358688418&spec=640",
     "moneyCNY": 2.33
+  },
+  {
+    "name": "*美",
+    "moneyCNY": 30
   }
 ]
