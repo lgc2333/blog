@@ -8,7 +8,7 @@ export default defineSiteConfig({
   subtitle: '',
   description: '',
   author: {
-    name: 'student_2333',
+    name: 'LgCookie',
     email: 'lgc2333@126.com',
     link: 'https://lgc2333.top/',
     avatar: '/assets/favicon.png',
