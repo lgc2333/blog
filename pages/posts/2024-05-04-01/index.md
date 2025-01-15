@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 欢迎
-# categories: []
+categories: ['欢迎']
 tags: []
 date: 2024-05-04
 updated: 2024-05-04
