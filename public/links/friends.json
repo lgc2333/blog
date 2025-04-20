@@ -47,4 +47,12 @@
     "blog": "御坂秋生の小窝",
     "desc": "不努力就只能听到别人的好消息"
   }
+  {
+    "avatar": "https://halo.b4qaq.top/upload/t1x.jpg",
+    "name": "B4QAQ",
+    "url": "https://halo.b4qaq.top",
+    "color": "var(--va-c-primary-dark)",
+    "blog": "B4の小窝",
+    "desc": "不忘初心，方得始终"
+  }
 ]
