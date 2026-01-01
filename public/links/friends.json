@@ -54,5 +54,13 @@
     "color": "var(--va-c-primary-dark)",
     "blog": "B4の小窝",
     "desc": "不忘初心，方得始终"
+  },
+  {
+    "avatar": "https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico",
+    "name": "见崎美咲",
+    "url": "https://eofs791.github.io",
+    "color": "var(--va-c-primary-dark)",
+    "blog": "Catarium",
+    "desc": "见崎的猫箱"
   }
 ]
